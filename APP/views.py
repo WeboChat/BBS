@@ -6,4 +6,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def hello(request):
-    return JsonResponse('hello bbs')
+    data={
+        'msg':'hello bbs'
+    }
+    return JsonResponse(data)
