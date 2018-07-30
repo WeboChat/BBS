@@ -1,10 +1,5 @@
 # -*- coding: utf-8 -*-
-from __future__ import unicode_literals
 
-from django.contrib.auth.hashers import make_password, check_password
-from django.shortcuts import render, redirect
-
-# Create your views here.
 from APP.forms import RegisterFrom
 from APP.models import TieZi, UserModel
 
